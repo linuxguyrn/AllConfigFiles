@@ -151,29 +151,10 @@ eval "$(oh-my-posh init bash --config ~/.poshthemes/space.omp.json)"
 fortune | cowsay -f stegosaurus
 ### EOF ###
 
-alias pipb='~/CodeBase/bin/pip3.12'
-alias polyfix='bash ~/.config/polybar/forest/launch.sh'
 alias top='btop --utf-force'
-alias fix='apt clean
-apt autoclean
-sudo dpkg --configure -a
-apt install -f
-apt update
-apt upgrade
-apt autoremove
-for run in {1..10}; do xrefresh; done
-sudo killall -9 apt'
-alias qemu='qemu-system-x86_64 -cdrom'
 alias python='ipython3'
-alias docker='sudo docker'
-alias updateall='sudo apt update && sudo apt full-upgrade -y && flatpak update -y '
-alias activate='source ~/CodeBase/bin/activate'
-alias pythonb='~/CodeBase/bin/python3.12'
-alias swpreset='sudo ./.toggle_swap.sh'
-alias cinnamontheme='sudo vi /usr/share/cinnamon/theme/cinnamon.css'
-alias doc='cd ~/Documents'
-alias down='cd ~/Downloads'
-alias base='cd ~/CodeBase/Python_Code'
-alias wall='wallset --video'
-alias wallstr='wallset --video smol-stelle-honkai-star-rail.3840x2160.mp4'
+alias updateall='sudo dnf check-update && sudo dnf upgrade -y && flatpak update -y '
+alias swpreset='cd ~
+		sudo ./.toggle_swap.sh
+'
 
