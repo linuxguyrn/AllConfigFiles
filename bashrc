@@ -147,7 +147,7 @@ PROMPT_COMMAND=bash_prompt_command
 ##	which gets updated by $PROMT_COMMAND on behalf of the terminal
 
 export PATH=$PATH:$HOME/bin:$HOME/.local/share/bob/nvim-bin
-eval "$(oh-my-posh init bash --config ~/.poshthemes/space.omp.json)"
+eval "$(starship init bash)"
 fortune | cowsay -f stegosaurus
 ### EOF ###
 
