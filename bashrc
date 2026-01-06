@@ -62,4 +62,5 @@ alias updateall='sudo dnf check-update && sudo dnf upgrade -y && flatpak update 
 alias swpreset='cd ~
 		sudo ./.toggle_swap.sh
 '
+alias passwdgit='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'
 
